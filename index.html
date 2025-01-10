@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/318420cabc.js" crossorigin="anonymous"></script>
+    <script src="file:///C:/Users/vaibh/OneDrive/Desktop/transition.js"></script>
+    <title>Matchmingle: Dating gone right</title>
+    <link rel="icon" href=
+"file:///C:/Matchmingle/favicon_io/favicon.ico"  
+          type="image/x-icon">
+    <style>
+        header{
+           background-color: white;
+           width: auto;
+           padding: 0;
+           height: 80px;
+           position: sticky;
+        }
+        .head1{
+              margin-left: 0px;
+              margin-top: -80px;
+              margin-left: 40px;
+              width: 250px;
+              height: 250x;
+              object-fit: cover;
+        }
+        .head2{
+                  position: relative;
+                  height: 1px;
+        }
+        
+        body {
+            margin: 0 auto;
+            background-position: center;
+            background-size: contain;
+            padding: 0;
+        }
+
+        .menu{
+            position: -webkit-sticky;
+            position: sticky;
+            margin-left: 900px;
+            padding: 30px 1px 10px 0px;
+            margin-top: auto;
+            margin-bottom: auto;
+            text-align: left;
+            float: block;
+            color: white;
+            overflow: hidden;
+            
+        }
+
+        .menu a {
+            float: inline;
+            color: black;
+            text-align: center;
+            padding: 10px 16px 10px;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 21px;
+            transition-behavior: normal;
+            transition-duration: 0.2s;
+            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+            user-select: none;
+            touch-action: manipulation;  
+        }
+        
+        footer {
+            background-color: white;
+            bottom:0;
+            width:100%;
+            height: 300px;
+        }
+
+        .body_sec {
+        
+            height: 100%;
+            width: 100%;
+        }
+       .couple{
+        background-image: url(WEBSITE\ IMAGE.jpg);
+        background-position: 70% 10%;
+        background-size: cover;
+        padding: 350px 0px 400px;
+        z-index: 1;
+        inset: 0px;
+        color: transparent;
+        opacity: 1;
+        
+        
+       }
+       .h1{
+        font-size :78px;
+        text-transform: uppercase;
+        text-wrap: balance;
+        text-align: center;
+        margin-top: 0;
+        display: block;
+        font-weight: 700;
+        line-height: 30px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:white;
+       }
+       .explore{
+        border: none;
+        border-radius: 29px;
+        color: rgb(52,51,51);
+        padding: 17px 60px;
+        text-align: center;
+        text-decoration: none;
+        float: left;
+        position: relative;
+        margin-left: 650px;
+        margin-top: 20px;
+        font-size: 23px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+    transition-behavior: normal;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;  
+       }
+       .explore:hover{
+        background-color: lightpink;
+       }
+       .s1{
+        background-color: white;
+        width: 300px;
+        height: 700px;
+       }
+       .s2{
+        position: relative;
+        width:fill;
+        height: 730px;
+        background-color:white
+       }
+       video{
+        position: absolute;
+            
+        width: 218.5vh;
+        height: 120.8vh;
+        object-fit: cover;
+        float: inherit;
+       }
+    .h2{
+     text-align: left;
+     position: absolute;
+     font-size: 70px;
+     font-family:serif;
+     color: #EDF4F5;
+     margin-left: 80px;
+     margin-top: 220px;
+     line-height: 1;
+
+    }
+    .p1{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 60px;
+    font-size: 17px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    }
+ .p2{
+    position: absolute;
+    color: rgb(72,72,72);
+    margin-left: 820px;
+    margin-top: 480px;
+    font-size: 17px;
+    font-family:sans-serif;
+    line-height: 1.5;
+    }
+    
+    .b2{
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 190px;
+    border: none;
+    border-radius: 29px;
+    padding: 12px 22px;
+    color: rgb(52,51,51);
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition-behavior: normal;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;  
+    }
+    .b2:hover{
+        background-color: lightpink;
+    }
+    .h3{
+        text-align: center;
+        margin-top: 330px;
+        font-family: serif;
+        font-size: 46px;
+        font-weight: 400;
+        position: absolute;
+        margin-left: 820px;
+        color: rgb(26,26,26);
+
+    }
+    .img{
+        object-fit: cover;
+        height: 625px;
+        width: 730px;
+        border-radius: 15px;
+        margin-top: 40px;     
+    }
+    .fimg{
+     width: 220px;
+    height: 220x;
+    object-fit: cover;
+    margin-left: 165px;
+    margin-top: 40px;
+    
+    }
+    .foot{
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-color: rgb(72,72,72);
+        position: relative;
+    }
+    .p3{
+        margin-left: 160px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .b3{
+        background-color: transparent;
+        margin-left: 205px;
+        border-radius: 29px;
+        padding: 12px 25px;
+        cursor: pointer;   
+        display: inline-block;
+    }
+    .b3:hover{
+      display: block;
+    }
+
+    .span{
+        color: black;
+    }
+    .f2{
+        position: relative;
+        margin-top: -40px;
+    }
+    .dropdown{
+    position: absolute;
+    border-radius: 29px;
+    padding: 12px 25px;
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    display: none;
+    }
+    .dropdown a{
+     text-decoration: none;
+     color: black;
+     text-align: left;
+    border-radius: 29px;
+    border: black;
+    display: block;
+    padding: 12px 25px;
+    cursor: pointer;
+
+    background-color:transparent;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.9;
+    margin-left: -40px;
+    }
+    .dropdown a::before{
+        display: inline-block;
+        content: '';
+
+    }
+    
+    .b3:hover .dropdown{
+        display: block;
+    }
+    .h4{
+        text-align:center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(26,26,26);
+        position: relative;
+        margin-left: 670px;
+        margin-bottom: 5px;
+        margin-top: 0;
+
+    }
+    .fa-facebook{
+        color: #1877F2;     
+    }
+    .fa-facebook:hover{
+        transform: scale(1.5);
+    }
+    .fa-linkedin{
+       color: #1877F2;
+    }
+    .fa-linkedin:hover{
+        transform: scale(1.5);
+    }
+    .fa-github{
+        color: #2b3137;}
+    .fa-github:hover{
+        transform: scale(1.5);
+    }
+    .instagram:hover{
+        transform: scale(1.5);
+    }
+    .f4{
+    position:absolute;
+    right: 20px;
+    top: -220px;
+    }
+    .h5{
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(26,26,26);
+        margin-right: 300px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .ul{
+        padding: 0px;
+        margin:0;
+    }
+    .ul li{
+     list-style: none;
+     font-size: 20px;
+     
+    }
+    .ul li a{
+        text-decoration: none;
+        display: block;
+        line-height: 1.5;
+        color: #2b3137;
+        margin-top: 1px;
+        
+    }
+    .ul li a:hover{
+        color: plum;
+    }
+    
+    </style>
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="head2">
+        <a href="file:///C:/Users/vaibh/OneDrive/Desktop/Match%20Go.html"><img class="head1" src="file:///C:/Users/vaibh/Downloads/Untitled__1_-removebg-preview.png"alt="logo"></a>
+        </div>
+    <!-- Menu Navigation Bar -->
+    <nav class="menu">
+        <a href="file:///C:/Users/vaibh/OneDrive/Desktop/Match%20Go.html">Home</a>
+        <a href="#about">About</a>
+        <a href="file:///C:/Matchmingle/matches.html">Matches</a>
+        <a href="file:///C:/Matchmingle/compatibility%20test.html">Compatibility Test</a>
+         <a href="file:///C:/Matchmingle/login%20page%20updated.html">Login </a>
+        <style>
+            a:hover{
+            color: lightpink;
+            }
+        </style>
+    </nav>
+    </header>
+
+    <!-- Body section -->
+    <main class="body_sec">
+     <div class="couple">
+        <h1 class="h1" >DATING GONE RIGHT</h1>
+       <a href="#button"><button class="explore">Explore now</button></a>
+     </div>
+    </main>
+    <section class="s1">
+        <video src=
+        "file:///C:/Matchmingle/bg%20video/Sequence%2001%20new.mp4"
+                    autoplay loop muted></video>
+    <h2 class="h2">More than dates,<br>discover lasting<br> connections</h2>
+    <p class="p1">You deserve better, so we’ve designed great ways for you to <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date more and stress less</p>
+    <a href="#button"><button class="b2">See what's new</button></a>                          
+    </section>
+    <section class="s2">
+        <h3 class="h3">Love shouldn't be a swipe game.<br> Let's connect for real</h3>
+        <p class="p2">We believe in creating a safe and supportive space to find love.Go beyond profiles spark genuine conversations with our unique features.</p>
+        <img class="img" src="file:///C:/Matchmingle/matchmingle%20img.jpg" alt="aesthetic">   
+    </section>
+    <!-- Footer Section -->
+    <footer>
+     <div class="foot">
+        <div class="f1">
+         <a href="file:///C:/Users/vaibh/OneDrive/Desktop/Match%20Go.html"><img class="fimg" src="file:///C:/Users/vaibh/Downloads/Untitled__1_-removebg-preview.png"alt="logo"></a>
+          <div class="f2">
+            <p class="p3">&copy;&nbsp;2024 Matchmingle.&nbsp;All rights reserved</p>
+            <button class="b3">&#127760;<span class="span">&nbsp;English (US)&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" style="font-size: 15px;"></i></span> 
+                <div id="mydropdown" class="dropdown">
+                   <a href="file:///C:/Users/vaibh/OneDrive/Desktop/Match%20Go.html">english(US)</a>
+                   <a href="#hindi">हिन्दी</a>
+                </div>
+            </button> 
+             <div class="f3" style="margin-top: -50px;">
+                <h4 class="h4">Follow Us</h4>
+                <div class="social">
+                <a href="#"><img class="instagram"src="file:///C:/Matchmingle/Instagram_logo_2016.svg" style="height:50px;width: 50px; float: right;margin-right: 300px; margin-left:20px; transition: transform .2s;"></i></a>
+                <a href="#"><i class="fab fa-facebook"style="font-size: 50px; float: right;margin-left:20px;transition: transform .2s;"></i></a>
+                <a href="#"><i class="fab fa-linkedin"style="font-size: 50px; float: right;margin-left:20px;transition: transform .2s;"></i></a>
+                <a href="https://github.com/vaibhav0047/matchmingle"><i class="fab fa-github"style="font-size: 50px; float: right;margin-left:20px;transition: transform .2s;"></i></a>
+            <div class="f4" style="position: absolute;">
+                <h5 class="h5">Useful Links</h5>
+                <ul class="ul">
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Safe Dating Tips</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                    
+                </ul>
+            </div>
+            </div>
+             </div>
+             </div>
+        </div>
+
+     </div>
+
+    </footer>
+</body>
+</html>
