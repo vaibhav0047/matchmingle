@@ -1,7 +1,7 @@
 # Matchmingle
- A dating app designed to match you with your compatible partner.. A unique way of dating which makes dating fun and explore moree.This repository contains the source code, documentation, and contribution guidelines for the MatchMingle project.
+ A dating app designed to match you with your compatible partner.. A unique way of dating which makes dating fun and explore moree.This repository contains the source code, documentation, and contribution guidelines for the Matchmingle project.
 
-Features
+Features:-
 
 Personalized Profiles: Create detailed profiles with photos, bios, and preferences.
 
@@ -15,9 +15,9 @@ Privacy Controls: Customizable privacy settings to keep users safe.
 
 Icebreakers: Fun prompts and games to help start conversations.
 
-Tech Stack
+Tech Stack:-
 
-MatchMingle is built using the following technologies:
+Matchmingle is built using the following technologies:
 
 Frontend: React Native, TypeScript
 
